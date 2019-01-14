@@ -1,0 +1,55 @@
+.closeSpan {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: black;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    padding-right: 5px;
+}
+
+.closeSpan:hover, .closeSpan:focus {
+    color: #000;
+    text-decoration: none;
+    opacity: .75;
+}
+
+.closeSpan:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.myAddBtn{
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container {
+    padding: 10px;
+    background: gold;
+    border-radius: 10px;
+}
+.flex-item1 {
+    margin: 10px;
+    padding: 5px;
+    background: tomato;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+}
+
+.flex-item1:before {
+    content: counter(flex-item-counter);
+    counter-increment: flex-item-counter;
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin: 5px auto;
+    text-align: center;
+    background: ivory;
+    border-radius: 50%;
+}
